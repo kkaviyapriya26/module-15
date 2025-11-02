@@ -21,8 +21,18 @@ To write a Python program to build the following expression tree and print the i
 ## Program
 
 ```
+REG NO- 212223060120
+NAME- KAVIYA PRIYA K
+from binarytree import build,Node
+x=['*',4,'-',5,'+',2,7]
+t=build(x)
+print(t.inorder)
+print(t.postorder)
 ```
 
 ## OUTPUT
+<img width="1203" height="167" alt="image" src="https://github.com/user-attachments/assets/62066c08-e164-46a1-ad22-888882b465c2" />
+
 
 ## RESULT
+Thus the Python program to build the given expression tree and print the inorder and postorder traversals was created and executed successfully.
